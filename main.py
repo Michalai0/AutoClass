@@ -16,7 +16,7 @@ password = "your-password"
 
 
 chrome_options = Options()
-chrome_options.add_argument("--headless")  # 添加无头参数
+#chrome_options.add_argument("--headless")  # 添加无头参数
 
 # Set up the Chrome driver
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
